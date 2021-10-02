@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/last_note"
+        android:title="Last Add Notes" />
+    <item
+        android:id="@+id/ordery_priority"
+        android:title="Notes by Priority" />
+</menu>

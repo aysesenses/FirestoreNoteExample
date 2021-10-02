@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/drawable-v24/ic_add.xml" value="0.2203125" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/drawable-v24/ic_check.xml" value="0.2203125" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/layout/ayse_add_new_note.xml" value="0.1" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/layout/ayse_home_note_activity.xml" value="0.1" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/layout/ayse_item_note.xml" value="0.1" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/menu/ayse_menu_add_note.xml" value="0.10277777777777777" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/menu/ayse_menu_home.xml" value="0.10277777777777777" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/menu/song_menu.xml" value="0.10277777777777777" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
