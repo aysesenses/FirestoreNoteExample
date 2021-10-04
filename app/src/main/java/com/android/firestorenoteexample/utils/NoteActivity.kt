@@ -21,7 +21,7 @@ class NoteActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.ayse_home_note_activity)
+        setContentView(R.layout.home_note_activity)
 
         initNote()
         firestore = FirebaseFirestore.getInstance()
@@ -36,7 +36,7 @@ class NoteActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.ayse_menu_home, menu)
+        inflater.inflate(R.menu.menu_home, menu)
         return true
     }
 
