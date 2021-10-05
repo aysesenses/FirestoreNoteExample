@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.odevler.ayse_senses.note.NoteAdapter
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
+import timber.log.Timber
 
 class NoteActivity : AppCompatActivity() {
 
@@ -23,16 +24,51 @@ class NoteActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_note_activity)
 
-        initNote()
+        Timber.i("onCreate Called")
+
+
         firestore = FirebaseFirestore.getInstance()
+
+        initNote()
+        bindNote()
 
         fab.setOnClickListener {
             val intent = Intent(this, AddNoteActivity::class.java)
             startActivity(intent)
         }
 
-        bindNote()
     }
+    /** Lifecycle Methods **/
+    override fun onStart() {
+        super.onStart()
+        Timber.i("onStart Called")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Timber.i("onResume Called")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Timber.i("onPause Called")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Timber.i("onStop Called")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Timber.i("onDestroy Called")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Timber.i("onRestart Called")
+    }
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater: MenuInflater = menuInflater

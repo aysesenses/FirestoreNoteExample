@@ -10,6 +10,8 @@
         <entry key="..\:/FirestoreNoteExample/app/src/main/res/layout/ayse_item_note.xml" value="0.1" />
         <entry key="..\:/FirestoreNoteExample/app/src/main/res/menu/ayse_menu_add_note.xml" value="0.10277777777777777" />
         <entry key="..\:/FirestoreNoteExample/app/src/main/res/menu/ayse_menu_home.xml" value="0.10277777777777777" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/menu/menu_add_note.xml" value="0.1" />
+        <entry key="..\:/FirestoreNoteExample/app/src/main/res/menu/menu_home.xml" value="0.25" />
         <entry key="..\:/FirestoreNoteExample/app/src/main/res/menu/song_menu.xml" value="0.10277777777777777" />
       </map>
     </option>
